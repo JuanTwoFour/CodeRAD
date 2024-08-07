@@ -59,6 +59,10 @@
   content: "";
 }
 
+.hero-header {
+  color: var(--white);
+}
+
 .nav-link a {
   color: var(--white);
   font-size: 0.8125rem;
