@@ -115,6 +115,7 @@
 .bg-contrast {
   background-color: var(--footer-contrast);
   padding: var(--size-150) 0;
+  margin: 0 auto;
 }
 
 .service-grid {
@@ -189,4 +190,9 @@ span.bg-color-6 {
 .video-box > img {
   max-width: 600px;
   border-radius: 10px;
+}
+
+.block-text.pricing-header {
+  text-align: center;
+  padding-right: 0;
 }

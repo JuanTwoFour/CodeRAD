@@ -76,12 +76,6 @@ img {
   margin-right: auto;
 }
 
-@media (min-width: 1200px) {
-  .container {
-    max-width: 1140px;
-  }
-}
-
 .btn {
   display: inline-block;
   font-weight: 400;
@@ -110,4 +104,16 @@ img {
   border: 1px solid var(--gradient-1);
   box-shadow: 0 10px 20px rgba(161, 236, 255, 0.5);
   transition: ease-in-out 0.3s;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+@media (min-width: 768px) {
+  .plans {
+    max-width: 720px;
+  }
 }
