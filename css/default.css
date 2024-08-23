@@ -113,7 +113,8 @@ img {
 }
 
 @media (min-width: 768px) {
-  .plans {
+  .plans,
+  .testimonial-grid {
     max-width: 720px;
   }
 }
