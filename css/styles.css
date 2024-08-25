@@ -316,7 +316,7 @@ span.bg-color-6 {
   grid-column: 1 / 2;
 }
 
-.testimonial-card.lg .bottom span {
+.testimonial-card .quote {
   width: 4.725rem;
   float: right;
   margin-top: var(--size-16);
