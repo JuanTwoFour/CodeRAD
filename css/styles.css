@@ -331,3 +331,11 @@ footer .footer-top {
   gap: var(--size-50);
   padding: var(--size-100) 0;
 }
+
+.footer-top {
+  background-color: var(--footer);
+}
+
+.footer-bottom {
+  background-color: var(--footer-base);
+}
