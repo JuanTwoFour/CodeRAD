@@ -402,3 +402,27 @@ footer .social-icons li a img {
   color: var(--light-font-color);
   font-size: var(--size-10);
 }
+
+.footer-bottom-wrapper {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.footer-bottom-links ul li {
+  display: inline-block;
+  margin-right: var(--size-10);
+}
+
+.footer-bottom-links ul li a {
+  color: var(--white);
+}
+
+.footer-bottom {
+  padding: var(--size-16) 0;
+}
+
+.copyright p {
+  color: var(--light-font-color);
+}
