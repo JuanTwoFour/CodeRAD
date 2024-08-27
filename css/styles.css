@@ -375,3 +375,30 @@ footer .social-icons li {
 footer .social-icons li a img {
   background-color: var(--white);
 }
+
+.services-wrapper p {
+  color: #858497;
+}
+
+.recent-post {
+  display: flex;
+  margin-bottom: var(--size-16);
+}
+
+.recent-post .post-img-wrapper {
+  width: var(--size-100);
+  margin-right: var(--size-10);
+}
+
+.post-info h6 {
+  margin: 0;
+}
+.post-info h6 a {
+  color: var(--white);
+  font-weight: 600;
+}
+
+.post-info span {
+  color: var(--light-font-color);
+  font-size: var(--size-10);
+}
