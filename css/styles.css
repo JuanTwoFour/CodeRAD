@@ -406,6 +406,7 @@ footer .social-icons li a img {
 .post-info h6 a {
   color: var(--white);
   font-weight: 600;
+  font-size: 0.75rem;
 }
 
 .post-info span {
