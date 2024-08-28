@@ -44,6 +44,7 @@
 
 .bg-header {
   background-image: url(../assets/images/bg-header-1.jpg);
+  padding: var(--size-150) 0;
 }
 .video-demo {
   background-image: url(../assets/images/bg-demo.jpg);
@@ -93,8 +94,9 @@
   flex: 1;
 }
 
-.block-text {
-  padding-right: var(--size-50);
+.why-me-wrapper .block-text {
+  padding: var(--size-100);
+  max-width: 44rem;
 }
 
 .block-text span {
