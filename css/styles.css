@@ -171,6 +171,7 @@ span.bg-color-6 {
 .video-demo .block-text h2,
 .video-demo .block-text p {
   color: var(--white);
+  margin: var(--size-50) 0;
 }
 
 .video-box {
@@ -218,7 +219,7 @@ span.bg-color-6 {
 .price-card {
   background-color: var(--white);
   border-radius: 8px;
-  padding: var(--size-16);
+  padding: var(--size-40) var(--size-16);
 }
 .price-card .checked {
   color: var(--success);
@@ -258,6 +259,9 @@ span.bg-color-6 {
 
 .plan-btn-wrapper {
   text-align: center;
+}
+.plan-btn-wrapper a {
+  width: 100%;
 }
 
 .testimonials {
@@ -350,6 +354,7 @@ footer .footer-col {
   color: var(--white);
   font-weight: 500;
   margin-bottom: var(--size-16);
+  font-size: var(--size-16);
 }
 
 .contact-info li {
@@ -380,6 +385,9 @@ footer .social-icons li a img {
 
 .services-wrapper p {
   color: #858497;
+}
+.services-wrapper h5 {
+  margin-bottom: initial;
 }
 
 .recent-post {
