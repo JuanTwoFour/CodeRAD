@@ -108,7 +108,7 @@
 }
 
 .why-me {
-  padding: var(size-150) 0;
+  padding: var(--size-100) 0;
 }
 
 .why-me-wrapper {
@@ -142,7 +142,7 @@
 
 .bg-contrast {
   background-color: var(--footer-contrast);
-  padding: var(--size-150) 0;
+  padding: var(--size-100) 0;
   margin: 0 auto;
 }
 
