@@ -364,16 +364,17 @@ footer .footer-top {
   padding: var(--size-100) 0;
 }
 
+footer .footer-col {
+  justify-self: center;
+  max-width: 250px;
+}
+
 .footer-top {
   background-color: var(--footer);
 }
 
 .footer-bottom {
   background-color: var(--footer-base);
-}
-
-footer .footer-col {
-  justify-self: center;
 }
 
 .footer-top h5 {
