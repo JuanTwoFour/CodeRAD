@@ -23,7 +23,7 @@
 
   <body>
     <div id="pageTop"></div>
-    <nav class="navbar nav">
+    <nav class="navbar nav" id="topNav">
       <div class="container">
         <button
           class="navbar-toggler"
@@ -525,6 +525,15 @@
     /></a>
 
     <script>
+      const nav = document.getElementById("topNav");
+      window.onscroll = function () {
+        if (window.pageYOffset > 100) {
+          nav.classList.add("sticky");
+        } else {
+          nav.classList.remove("sticky");
+        }
+      };
+
       const navButton = document.querySelector("button[aria-expanded]");
 
       function toggleNav({ target }) {
