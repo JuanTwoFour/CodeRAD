@@ -334,7 +334,7 @@ span.bg-color-6 {
 .testimonial-card {
   border: 1px solid #dedede;
   border-radius: 8px;
-  padding: var(--size-30);
+  padding: var(--size-10);
 }
 
 .bottom p {
