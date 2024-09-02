@@ -19,6 +19,7 @@
 }
 
 .navbar-toggler {
+  display: none;
   position: absolute;
   right: var(--size-20);
   top: var(--size-10);
@@ -61,7 +62,7 @@
   color: var(--white);
   font-size: 0.8125rem;
   font-weight: 600;
-  font-family: "Hind", sans-seref;
+  font-family: "Hind", sans-serif;
   text-transform: uppercase;
   margin-right: var(--size-40);
   line-height: var(--size-20);
