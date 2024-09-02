@@ -230,7 +230,7 @@ span.bg-color-6 {
 .plans {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(215px, 1fr));
-  gap: var(--size-16);
+  gap: var(--size-30);
   margin: auto;
   align-items: flex-start;
 }

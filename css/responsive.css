@@ -49,4 +49,8 @@
   .why-me-wrapper .block-text {
     padding: 0;
   }
+
+  .plan-btn-wrapper a {
+    width: 50%;
+  }
 }
