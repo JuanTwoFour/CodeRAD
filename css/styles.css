@@ -57,6 +57,16 @@
   color: var(--white);
 }
 
+.nav-link a {
+  color: var(--white);
+  font-size: 0.8125rem;
+  font-weight: 600;
+  font-family: "Hind", sans-seref;
+  text-transform: uppercase;
+  margin-right: var(--size-40);
+  line-height: var(--size-20);
+}
+
 .bg-header,
 .video-demo {
   background-color: var(--footer);
@@ -95,16 +105,6 @@
 
 .hero-header {
   color: var(--white);
-}
-
-.nav-link a {
-  color: var(--white);
-  font-size: 0.8125rem;
-  font-weight: 600;
-  font-family: "Hind", sans-seref;
-  text-transform: uppercase;
-  margin-right: var(--size-40);
-  line-height: var(--size-20);
 }
 
 .why-me {
