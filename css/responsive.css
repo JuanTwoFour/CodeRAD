@@ -53,4 +53,12 @@
   .plan-btn-wrapper a {
     width: 50%;
   }
+
+  footer .footer-col:nth-child(1) {
+    grid-column: initial;
+  }
+
+  footer .footer-col:nth-child(1) {
+    order: 3;
+  }
 }
